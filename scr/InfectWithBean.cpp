@@ -5,9 +5,7 @@ int main(void)
 {
 	ofstream outfile("BEANZ");
 	int i = 0;
-    
-    system("powershell.exe");
-    system("C:\\ProgramData\\chocolatey\\lib\\Wget\\tools\\wget.exe https://imgur.com/a/F1XDA7o -O C:\\Users\\noahg\\Desktop\\beans.png");
+    //system("C:\\ProgramData\\chocolatey\\lib\\Wget\\tools\\wget.exe URL -O C:\\Users\\noahg\\Desktop\\beans.png");
     
     
 	while (i < 5000) {
